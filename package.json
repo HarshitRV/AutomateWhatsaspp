@@ -1,0 +1,20 @@
+{
+  "name": "whatsappautomate",
+  "version": "1.0.0",
+  "description": "Automatic WhatsApp message sending",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "HarshitRV",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "express": "^4.18.1",
+    "node-fetch": "^3.2.4",
+    "qrcode-terminal": "^0.12.0",
+    "whatsapp-web.js": "^1.16.6"
+  }
+}
