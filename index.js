@@ -8,7 +8,7 @@ const PORT = process.env.PORT || 3000;
 
 const { init } = require("./init");
 
-const interval = () => setInterval(async () => {
+const interval = setInterval(async () => {
     try {
         const now = new Date();
 
